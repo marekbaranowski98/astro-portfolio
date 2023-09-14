@@ -24,27 +24,31 @@ Additionally, I am proficient in managing the Linux operating system, on which t
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Opole University of Technology",
+      location: "Opole, Poland",
+      startDate: "2022",
+      endDate: "2023",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Master's degree in engineering, specializing in computer networks and database systems",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
+      name: "Opole University of Technology",
+      location: "Opole, Poland",
       startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      endDate: "2022",
+      description: [
+        "Diploma of Engineering,"
+      ],
     },
     {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
+      name: "ZSZ 1",
+      location: "Brzeg, Poland",
+      startDate: "2014",
       endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      description: [
+        "IT Technician",
+      ],
     },
   ],
 
