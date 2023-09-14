@@ -87,11 +87,18 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "FakeNews Detection",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
+      thumbnail: "/assets/images/fake-news-detection.png",
       githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      liveUrl: "",
+    },
+    {
+      title: "WebFilm",
+      isFeatured: true,
+      thumbnail: "/assets/images/webfilm.png",
+      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "",
     },
   ],
 };
