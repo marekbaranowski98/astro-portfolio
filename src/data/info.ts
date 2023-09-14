@@ -63,7 +63,7 @@ Additionally, I am proficient in managing the Linux operating system, on which t
       title: "FakeNews Detection",
       isFeatured: true,
       thumbnail: "/assets/images/fake-news-detection.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      githubUrl: "https://github.com/marekbaranowski98/fakeNewsDetection",
       liveUrl: "",
     },
     {
