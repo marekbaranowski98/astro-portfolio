@@ -1,15 +1,9 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  baseUrl: "https://marekbaranowski.net",
+  name: "Marek Baranowski",
+  jobDescription: "Full-Stack Developer",
+  about: `I am an experienced programmer specializing in the development of web applications using PHP with the Symfony framework and Python with the Django framework. I possess the skill of efficient application management using Docker, which speeds up the deployment and testing process of applications.
+Additionally, I am proficient in managing the Linux operating system, on which the applications are run. I have in-depth knowledge about configuration, administration, and troubleshooting related to the Linux system. My skills in this area enable me to effectively maintain and optimize the working environment of web applications.
   `,
 
   experience: [
