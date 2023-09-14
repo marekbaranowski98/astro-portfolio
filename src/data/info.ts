@@ -53,7 +53,7 @@ Additionally, I am proficient in managing the Linux operating system, on which t
   ],
 
   socialMedia: {
-    github: "http://github.com/marekbaranowski98",
+    github: "https://github.com/marekbaranowski98",
     email: "mailto:me@marekbaranowski.net",
     linkedin: "https://www.linkedin.com/in/marekbaranowski98/",
   },
