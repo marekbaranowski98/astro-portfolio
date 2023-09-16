@@ -14,6 +14,8 @@ jobs:
         uses: withastro/action@v0
         with:
          package-manager: npm
+      - name: Build application
+        run: npm run build
 
   web-deploy:
     needs: build
@@ -22,8 +24,6 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
-      - name: test
-        run: ls -la
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
