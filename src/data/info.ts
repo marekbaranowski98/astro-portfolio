@@ -24,6 +24,15 @@ Additionally, I am proficient in managing the Linux operating system, on which t
 
   education: [
     {
+      name: "Doctoral School, Opole University of Technology",
+      location: "Opole, Poland",
+      startDate: "2023",
+      endDate: "now",
+      description: [
+        "",
+      ],
+    },
+    {
       name: "Opole University of Technology",
       location: "Opole, Poland",
       startDate: "2022",
@@ -39,15 +48,6 @@ Additionally, I am proficient in managing the Linux operating system, on which t
       endDate: "2022",
       description: [
         "Diploma of Engineering,"
-      ],
-    },
-    {
-      name: "ZSZ 1",
-      location: "Brzeg, Poland",
-      startDate: "2014",
-      endDate: "2018",
-      description: [
-        "IT Technician",
       ],
     },
   ],
