@@ -6,6 +6,7 @@ on:
 name: 🚀 Deploy website on push
 jobs:
   build:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
@@ -14,11 +15,6 @@ jobs:
         uses: withastro/action@v0
         with:
          package-manager: npm
-  web-deploy:
-    needs: build
-    name: 🎉 Deploy
-    runs-on: ubuntu-latest
-    steps:
       - name: Build application
         run: npm run build
       - name: DEBUG
