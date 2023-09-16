@@ -17,7 +17,7 @@ jobs:
         with:
           server: ftp.cluster026.hosting.ovh.net
           username: marekbarhb
-          password: ${{ secrets.secrets.FTP_PASSWORD }}
+          password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
-          local-dir: dist
-          server-dir: www
+          local-dir: dist/
+          server-dir: www/
