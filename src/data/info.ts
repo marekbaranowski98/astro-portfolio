@@ -27,7 +27,7 @@ Additionally, I am proficient in managing the Linux operating system, on which t
       name: "Doctoral School, Opole University of Technology",
       location: "Opole, Poland",
       startDate: "2023",
-      endDate: "now",
+      endDate: "Present",
       description: [
         "",
       ],
@@ -70,7 +70,7 @@ Additionally, I am proficient in managing the Linux operating system, on which t
       title: "WebFilm",
       isFeatured: true,
       thumbnail: "/assets/images/webfilm.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      githubUrl: "https://github.com/marekbaranowski98/WebFilm",
       liveUrl: "",
     },
   ],
