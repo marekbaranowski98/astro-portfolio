@@ -17,14 +17,15 @@ jobs:
          package-manager: npm
       - name: Build application
         run: npm run build
-      - name: DEBUG
-        run: ls
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ftp.cluster026.hosting.ovh.net
-          username: marekbarhb
+          server: ${{ secrets.FTP_URL }}
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
-          local-dir: dist/
-          server-dir: www/
+          local_path: dist/
+          remote_path: www/
+          sftp_only: true
+          delete_remote_files: true
