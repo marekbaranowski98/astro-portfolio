@@ -24,8 +24,7 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local_path: dist/
+          local_path: ./dist/*
           remote_path: www/
           sftp_only: true
           delete_remote_files: true
