@@ -21,7 +21,6 @@ Additionally, I am proficient in managing the Linux operating system, on which t
       ],
     },
   ],
-
   education: [
     {
       name: "Doctoral School, Opole University of Technology",
