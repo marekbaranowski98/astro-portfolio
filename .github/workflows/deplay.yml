@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "prod" ]
 
 
 name: 🚀 Deploy website on push
