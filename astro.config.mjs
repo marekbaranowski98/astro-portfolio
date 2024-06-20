@@ -14,6 +14,13 @@ export default defineConfig({
       lastmod: new Date(),
       entryLimit: 10000,
     }),
-    robotsTxt(),
+    robotsTxt({
+      policy: [{
+        userAgent: '*',
+        allow: '/',
+        disallow: '/cdn-cgi/l/email-protection',
+      },
+      ],
+    })
   ],
 });
