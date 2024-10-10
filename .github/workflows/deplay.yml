@@ -1,30 +1,30 @@
-on:
-  push:
-    branches: [ "prod" ]
+# on:
+#   push:
+#     branches: [ "prod" ]
 
 
-name: 🚀 Deploy website on push
-jobs:
-  build:
-    name: 🎉 Deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v3
-      - name: Install, build, and upload your site output
-        uses: withastro/action@v0
-        with:
-         package-manager: npm
-      - name: Build application
-        run: npm run build
-      - name: 📂 Sync files
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          server: ${{ secrets.FTP_URL }}
-          port: ${{ secrets.FTP_PORT }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local_path: ./dist/*
-          remote_path: www/
-          sftp_only: true
-          delete_remote_files: true
+# name: 🚀 Deploy website on push
+# jobs:
+#   build:
+#     name: 🎉 Deploy
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout your repository using git
+#         uses: actions/checkout@v3
+#       - name: Install, build, and upload your site output
+#         uses: withastro/action@v0
+#         with:
+#          package-manager: npm
+#       - name: Build application
+#         run: npm run build
+#       - name: 📂 Sync files
+#         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+#         with:
+#           server: ${{ secrets.FTP_URL }}
+#           port: ${{ secrets.FTP_PORT }}
+#           username: ${{ secrets.FTP_USERNAME }}
+#           password: ${{ secrets.FTP_PASSWORD }}
+#           local_path: ./dist/*
+#           remote_path: www/
+#           sftp_only: true
+#           delete_remote_files: true
